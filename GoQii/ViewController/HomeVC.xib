@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeVC" customModule="GoQii" customModuleProvider="target">
+            <connections>
+                <outlet property="lblTotalAmountLabel" destination="y1g-s2-TBh" id="MGK-ZW-i6G"/>
+                <outlet property="logInTake" destination="Drs-xV-Oyg" id="qXY-U8-YoP"/>
+                <outlet property="progressView" destination="89B-ce-VyC" id="gbs-lG-mT1"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="drink_Images" translatesAutoresizingMaskIntoConstraints="NO" id="OBJ-ii-dbq">
+                    <rect key="frame" x="0.0" y="358" width="393" height="387"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y1g-s2-TBh">
+                    <rect key="frame" x="16" y="131" width="361" height="21"/>
+                    <color key="backgroundColor" systemColor="systemPinkColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Drs-xV-Oyg">
+                    <rect key="frame" x="16" y="218" width="361" height="45"/>
+                    <color key="backgroundColor" red="0.99607843139999996" green="0.58823529409999997" blue="0.54117647059999996" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="yYK-le-Yic"/>
+                    </constraints>
+                    <color key="tintColor" red="0.45098039220000002" green="0.46274509800000002" blue="0.74901960779999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Record"/>
+                    <connections>
+                        <action selector="logIntakeButtonTapped:" destination="-1" eventType="touchUpInside" id="GAj-r4-gcQ"/>
+                    </connections>
+                </button>
+                <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="1" translatesAutoresizingMaskIntoConstraints="NO" id="89B-ce-VyC">
+                    <rect key="frame" x="16" y="183" width="361" height="4"/>
+                    <color key="backgroundColor" red="0.95686274510000002" green="0.3294117647" blue="0.34509803919999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </progressView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemGreenColor"/>
+            <constraints>
+                <constraint firstItem="OBJ-ii-dbq" firstAttribute="top" secondItem="Drs-xV-Oyg" secondAttribute="bottom" constant="95" id="1zS-x7-6Ah"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Drs-xV-Oyg" secondAttribute="trailing" constant="16" id="2mb-CL-MYu"/>
+                <constraint firstItem="OBJ-ii-dbq" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="657-VZ-2vl"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="89B-ce-VyC" secondAttribute="trailing" constant="16" id="7XK-qc-9tJ"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="y1g-s2-TBh" secondAttribute="trailing" constant="16" id="H2M-z9-P9t"/>
+                <constraint firstItem="y1g-s2-TBh" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="72" id="MuG-nF-8GP"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="OBJ-ii-dbq" secondAttribute="bottom" constant="73" id="S4P-SZ-SXH"/>
+                <constraint firstItem="Drs-xV-Oyg" firstAttribute="top" secondItem="89B-ce-VyC" secondAttribute="bottom" constant="31" id="Xbz-Za-NpN"/>
+                <constraint firstItem="89B-ce-VyC" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="Xsa-ug-xOj"/>
+                <constraint firstItem="89B-ce-VyC" firstAttribute="top" secondItem="y1g-s2-TBh" secondAttribute="bottom" constant="31" id="dnf-2C-feb"/>
+                <constraint firstItem="Drs-xV-Oyg" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="erL-mJ-5J7"/>
+                <constraint firstItem="y1g-s2-TBh" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="tZw-za-DIo"/>
+                <constraint firstItem="OBJ-ii-dbq" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="yWZ-rH-cwf"/>
+            </constraints>
+            <point key="canvasLocation" x="26.717557251908396" y="19.718309859154932"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="drink_Images" width="1200" height="1200"/>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

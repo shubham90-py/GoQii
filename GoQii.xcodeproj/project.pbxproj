@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92270EAD2BE4070200CDEDF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92270EAC2BE4070200CDEDF2 /* AppDelegate.swift */; };
+		92270EAF2BE4070200CDEDF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92270EAE2BE4070200CDEDF2 /* SceneDelegate.swift */; };
+		92270EB12BE4070200CDEDF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92270EB02BE4070200CDEDF2 /* ViewController.swift */; };
+		92270EB42BE4070200CDEDF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92270EB22BE4070200CDEDF2 /* Main.storyboard */; };
+		92270EB72BE4070200CDEDF2 /* GoQii.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 92270EB52BE4070200CDEDF2 /* GoQii.xcdatamodeld */; };
+		92270EB92BE4070400CDEDF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92270EB82BE4070400CDEDF2 /* Assets.xcassets */; };
+		92270EBC2BE4070400CDEDF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92270EBA2BE4070400CDEDF2 /* LaunchScreen.storyboard */; };
+		92270EC82BE4078700CDEDF2 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92270EC62BE4078700CDEDF2 /* HomeVC.swift */; };
+		92270EC92BE4078700CDEDF2 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92270EC72BE4078700CDEDF2 /* HomeVC.xib */; };
+		92270ECC2BE407A600CDEDF2 /* LogWaterIntakeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92270ECA2BE407A600CDEDF2 /* LogWaterIntakeVC.swift */; };
+		92270ECD2BE407A600CDEDF2 /* LogWaterIntakeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92270ECB2BE407A600CDEDF2 /* LogWaterIntakeVC.xib */; };
+		92270ED02BE407BE00CDEDF2 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92270ECE2BE407BE00CDEDF2 /* SettingsVC.swift */; };
+		92270ED12BE407BE00CDEDF2 /* SettingsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92270ECF2BE407BE00CDEDF2 /* SettingsVC.xib */; };
+		92270ED42BE4083800CDEDF2 /* WaterIntake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92270ED32BE4083800CDEDF2 /* WaterIntake.swift */; };
+		92270ED72BE4224400CDEDF2 /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92270ED62BE4224400CDEDF2 /* UIButton+Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		92270EA92BE4070200CDEDF2 /* GoQii.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoQii.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92270EAC2BE4070200CDEDF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92270EAE2BE4070200CDEDF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		92270EB02BE4070200CDEDF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		92270EB32BE4070200CDEDF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92270EB62BE4070200CDEDF2 /* GoQii.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoQii.xcdatamodel; sourceTree = "<group>"; };
+		92270EB82BE4070400CDEDF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92270EBB2BE4070400CDEDF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92270EBD2BE4070400CDEDF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92270EC62BE4078700CDEDF2 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		92270EC72BE4078700CDEDF2 /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		92270ECA2BE407A600CDEDF2 /* LogWaterIntakeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogWaterIntakeVC.swift; sourceTree = "<group>"; };
+		92270ECB2BE407A600CDEDF2 /* LogWaterIntakeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LogWaterIntakeVC.xib; sourceTree = "<group>"; };
+		92270ECE2BE407BE00CDEDF2 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		92270ECF2BE407BE00CDEDF2 /* SettingsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsVC.xib; sourceTree = "<group>"; };
+		92270ED32BE4083800CDEDF2 /* WaterIntake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterIntake.swift; sourceTree = "<group>"; };
+		92270ED62BE4224400CDEDF2 /* UIButton+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensions.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92270EA62BE4070200CDEDF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92270EA02BE4070200CDEDF2 = {
+			isa = PBXGroup;
+			children = (
+				92270EAB2BE4070200CDEDF2 /* GoQii */,
+				92270EAA2BE4070200CDEDF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92270EAA2BE4070200CDEDF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92270EA92BE4070200CDEDF2 /* GoQii.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92270EAB2BE4070200CDEDF2 /* GoQii */ = {
+			isa = PBXGroup;
+			children = (
+				92270EAC2BE4070200CDEDF2 /* AppDelegate.swift */,
+				92270EAE2BE4070200CDEDF2 /* SceneDelegate.swift */,
+				92270ED52BE4222B00CDEDF2 /* Extension */,
+				9241603C2BEEB88B001D130D /* DataModel */,
+				92270EC32BE4071D00CDEDF2 /* ViewController */,
+				92270EB02BE4070200CDEDF2 /* ViewController.swift */,
+				92270EB22BE4070200CDEDF2 /* Main.storyboard */,
+				92270EB82BE4070400CDEDF2 /* Assets.xcassets */,
+				92270EBA2BE4070400CDEDF2 /* LaunchScreen.storyboard */,
+				92270EBD2BE4070400CDEDF2 /* Info.plist */,
+				92270EB52BE4070200CDEDF2 /* GoQii.xcdatamodeld */,
+			);
+			path = GoQii;
+			sourceTree = "<group>";
+		};
+		92270EC32BE4071D00CDEDF2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				92270EC62BE4078700CDEDF2 /* HomeVC.swift */,
+				92270EC72BE4078700CDEDF2 /* HomeVC.xib */,
+				92270ECA2BE407A600CDEDF2 /* LogWaterIntakeVC.swift */,
+				92270ECB2BE407A600CDEDF2 /* LogWaterIntakeVC.xib */,
+				92270ECE2BE407BE00CDEDF2 /* SettingsVC.swift */,
+				92270ECF2BE407BE00CDEDF2 /* SettingsVC.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		92270ED52BE4222B00CDEDF2 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				92270ED62BE4224400CDEDF2 /* UIButton+Extensions.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		9241603C2BEEB88B001D130D /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				92270ED32BE4083800CDEDF2 /* WaterIntake.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92270EA82BE4070200CDEDF2 /* GoQii */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92270EC02BE4070400CDEDF2 /* Build configuration list for PBXNativeTarget "GoQii" */;
+			buildPhases = (
+				92270EA52BE4070200CDEDF2 /* Sources */,
+				92270EA62BE4070200CDEDF2 /* Frameworks */,
+				92270EA72BE4070200CDEDF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoQii;
+			productName = GoQii;
+			productReference = 92270EA92BE4070200CDEDF2 /* GoQii.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92270EA12BE4070200CDEDF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					92270EA82BE4070200CDEDF2 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 92270EA42BE4070200CDEDF2 /* Build configuration list for PBXProject "GoQii" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92270EA02BE4070200CDEDF2;
+			productRefGroup = 92270EAA2BE4070200CDEDF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92270EA82BE4070200CDEDF2 /* GoQii */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92270EA72BE4070200CDEDF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92270ECD2BE407A600CDEDF2 /* LogWaterIntakeVC.xib in Resources */,
+				92270EBC2BE4070400CDEDF2 /* LaunchScreen.storyboard in Resources */,
+				92270EC92BE4078700CDEDF2 /* HomeVC.xib in Resources */,
+				92270ED12BE407BE00CDEDF2 /* SettingsVC.xib in Resources */,
+				92270EB92BE4070400CDEDF2 /* Assets.xcassets in Resources */,
+				92270EB42BE4070200CDEDF2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92270EA52BE4070200CDEDF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92270EB12BE4070200CDEDF2 /* ViewController.swift in Sources */,
+				92270EC82BE4078700CDEDF2 /* HomeVC.swift in Sources */,
+				92270EAD2BE4070200CDEDF2 /* AppDelegate.swift in Sources */,
+				92270ED42BE4083800CDEDF2 /* WaterIntake.swift in Sources */,
+				92270ED72BE4224400CDEDF2 /* UIButton+Extensions.swift in Sources */,
+				92270EAF2BE4070200CDEDF2 /* SceneDelegate.swift in Sources */,
+				92270EB72BE4070200CDEDF2 /* GoQii.xcdatamodeld in Sources */,
+				92270ECC2BE407A600CDEDF2 /* LogWaterIntakeVC.swift in Sources */,
+				92270ED02BE407BE00CDEDF2 /* SettingsVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		92270EB22BE4070200CDEDF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92270EB32BE4070200CDEDF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92270EBA2BE4070400CDEDF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92270EBB2BE4070400CDEDF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92270EBE2BE4070400CDEDF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92270EBF2BE4070400CDEDF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92270EC12BE4070400CDEDF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GoQii/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dummy.trackexpenses.GoQii;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92270EC22BE4070400CDEDF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GoQii/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dummy.trackexpenses.GoQii;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92270EA42BE4070200CDEDF2 /* Build configuration list for PBXProject "GoQii" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92270EBE2BE4070400CDEDF2 /* Debug */,
+				92270EBF2BE4070400CDEDF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92270EC02BE4070400CDEDF2 /* Build configuration list for PBXNativeTarget "GoQii" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92270EC12BE4070400CDEDF2 /* Debug */,
+				92270EC22BE4070400CDEDF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		92270EB52BE4070200CDEDF2 /* GoQii.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				92270EB62BE4070200CDEDF2 /* GoQii.xcdatamodel */,
+			);
+			currentVersion = 92270EB62BE4070200CDEDF2 /* GoQii.xcdatamodel */;
+			path = GoQii.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 92270EA12BE4070200CDEDF2 /* Project object */;
+}
